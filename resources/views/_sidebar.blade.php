@@ -14,7 +14,14 @@
   <li class="c-sidebar-nav-item">
     <a class="c-sidebar-nav-link" href="{{route('temperature.index')}}">
       <i class="c-sidebar-nav-icon cil-folder-open"></i>
-      Temperature
+      Moisture
+    </a>
+  </li>
+
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link" href="{{route('temperature-test.index')}}">
+      <i class="c-sidebar-nav-icon cil-folder-open"></i>
+      Moisture - Test
     </a>
   </li>
 
