@@ -56,12 +56,13 @@
         <div class="card text-white bg-primary py-5 d-md-down-none" style="width:44%">
           <div class="card-body text-center">
             <div>
-              <h2>Sign up</h2>
-              <p>Register to the testing Library portal</p>
-              
+              <h1>Sign up</h1>
+              <img src={{"https://cdn-icons-png.flaticon.com/512/2487/2487554.png"}} alt="profile Pic" height="200" width="200">
+              <p>Project Greenhouse - Miloslavov</p>
               @if (Route::has('register'))
               <a href="{{ route('register') }}" class="btn btn-lg btn-outline-light mt-3">Register</a>
               @endif
+              <p class="text-muted"> Are you a new user? Create a new account!</p>
             </div>
           </div>
         </div>

@@ -3,7 +3,6 @@
 </div>
 
 <ul class="c-sidebar-nav ps">
-   GREEN-HOUSE
   <li class="c-sidebar-nav-item">
     <a class="c-sidebar-nav-link" href="{{route('home')}}">
       <i class="c-sidebar-nav-icon cil-speedometer"></i>
@@ -12,42 +11,48 @@
   </li>
 
   <li class="c-sidebar-nav-item">
-    <a class="c-sidebar-nav-link" href="{{route('temperature.index')}}">
-      <i class="c-sidebar-nav-icon cil-folder-open"></i>
-      Moisture
+    <a class="c-sidebar-nav-link" href="{{route('overview.index')}}">
+      <i class="c-sidebar-nav-icon cil-chart-line"></i>
+      Overview
     </a>
   </li>
 
   <li class="c-sidebar-nav-item">
-    <a class="c-sidebar-nav-link" href="{{route('temperature-test.index')}}">
-      <i class="c-sidebar-nav-icon cil-folder-open"></i>
-      Moisture - Test
-    </a>
-  </li>
-
-  {{-- <li class="c-sidebar-nav-item">
-    <a class="c-sidebar-nav-link {{ Request::is('loans*') ? 'c-active' : '' }}" href="{{route('loans.index')}}">
-      <i class="c-sidebar-nav-icon cil-folder-open"></i>
-      Loans
+    <a class="c-sidebar-nav-link" href="{{route('heater.index')}}">
+      <i class="c-sidebar-nav-icon cil-aperture"></i>
+      Heater
     </a>
   </li>
 
   <li class="c-sidebar-nav-item">
-    <a class="c-sidebar-nav-link {{ Request::is('authors*') ? 'c-active' : '' }}" href="{{route('authors.index')}}">
-      <i class="c-sidebar-nav-icon cil-address-book"></i>
-      Authors
+    <a class="c-sidebar-nav-link" href="{{route('pump.index')}}">
+      <i class="c-sidebar-nav-icon cil-paint-bucket"></i>
+      Aquaponics Irrigation
     </a>
   </li>
 
   <li class="c-sidebar-nav-item">
-    <a class="c-sidebar-nav-link {{ Request::is('users*') ? 'c-active' : '' }}" href="{{route('users.index')}}">
-      <i class="c-sidebar-nav-icon cil-user"></i>
-      Users
+    <a class="c-sidebar-nav-link" href="{{route('valve.index')}}">
+      <i class="c-sidebar-nav-icon cil-color-fill"></i>
+      Soil Irrigation
     </a>
   </li>
-   --}}
 
-  
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link" href="{{route('light.index')}}">
+      <i class="c-sidebar-nav-icon cil-lightbulb"></i>
+      Light
+    </a>
+  </li>
+
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link" href="{{route('ventilation.index')}}">
+      <i class="c-sidebar-nav-icon cil-football"></i>
+      Ventilation
+    </a>
+  </li>
+
+
   <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
     <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;">
     </div>
